@@ -4,6 +4,7 @@
     flex-direction: column;
     padding: 15px;
     background-color: #282828;
+    border-radius: 12px;
 }
 .head{
     color: white;
