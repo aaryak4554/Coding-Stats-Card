@@ -5,6 +5,16 @@
     padding: 15px;
     background-color: #282828;
 }
+.head{
+    color: white;
+    font-size:x-large;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.leet-img{
+    margin-right: 10px;
+    margin-top: 8px;
+}
 .title{
     color:aliceblue;
 }
@@ -22,7 +32,6 @@
 .bar-progress{
     width: 70%;
     margin-right: 5%;
-    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -39,3 +48,37 @@
     font-size: large;
     font-weight: 600;
 }
+.details{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+    color:aliceblue;
+    font-size: large;
+    font-weight: 600;
+    width: 60%;
+}
+.det-img{
+    width: 25px;
+    height: 25px;
+    margin-right: 12px;
+}
+.det-sub{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 600px) {
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .circle-progress{
+        width: 70%;
+    }
+    .sub-sub{
+        display: flex;
+        flex-direction: column;
+    }
+  }

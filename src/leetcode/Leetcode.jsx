@@ -2,11 +2,24 @@ import './leet.css';
 import ProgressBar from "@ramonak/react-progress-bar";
 import { CircularProgressbar} from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
+import Logo from './leetcode.ico'
+import { CiStar } from "react-icons/ci";
+import { FiAward } from "react-icons/fi";
+import { IoShieldCheckmarkOutline } from "react-icons/io5";
+
 
 function Leet(){
     // const percentage=66;
     return (
         <div className="main"> 
+            <div className='head'>
+                <img 
+                    className='leet-img'
+                    src={Logo} 
+                    style={{ width:28, height:28}}
+                    alt="logo"/>
+                LeetCode
+            </div>
             <div className="title">
                 Solved Problems
             </div>
@@ -84,11 +97,34 @@ function Leet(){
                     </div>
                 </div>
             </div>
-            <div className="title">
-                Contest Rating- 
+            <div className="details">
+                <CiStar 
+                    className='det-img'
+                />
+                <div className='det-sub'>
+                    <div>Contest Rating</div>
+                    <div>8888</div>
+                </div>
             </div>
-            <div className="title">
-                Contest Attended- 
+            <div className="details">
+                <FiAward 
+                    className='det-img'
+                />
+                <div className='det-sub'>
+                    <div>Max Rating </div>
+                    <div>8888</div>
+                </div>
+                
+            </div>
+            <div className="details">
+                <IoShieldCheckmarkOutline
+                    className='det-img'
+                />
+                <div className='det-sub'>
+                    <div>Attended </div>
+                    <div>8888</div>
+                </div>
+                
             </div>
         </div>
     );
