@@ -1,0 +1,41 @@
+.main{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #282828;
+}
+.title{
+    color:aliceblue;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.circle-progress{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+}
+.bar-progress{
+    width: 70%;
+    margin-right: 5%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sub{
+    margin-bottom: 10px;
+}
+.sub-sub{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    color:aliceblue;
+    font-size: large;
+    font-weight: 600;
+}
